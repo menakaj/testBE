@@ -1,0 +1,26 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Python HTTP Service",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/hello/": {
+        "get": {
+          "summary": "Get hello message",
+          "responses": {
+            "200": {
+              "description": "Success",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
